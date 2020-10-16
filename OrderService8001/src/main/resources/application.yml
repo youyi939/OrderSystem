@@ -1,0 +1,10 @@
+server:
+  port: 8001
+
+
+
+
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: org.example.cn.ken
