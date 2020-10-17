@@ -14,4 +14,5 @@ import java.util.List;
 @WebService
 public interface OrderService {
     public List<Order> findAll();
+    public int create (Order order);
 }
