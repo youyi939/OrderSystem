@@ -63,6 +63,17 @@
             <scope>runtime</scope>
         </dependency>
 
+<!--        activeMQ-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-activemq</artifactId>
+        </dependency>
+        <!--消息队列连接池-->
+        <dependency>
+            <groupId>org.messaginghub</groupId>
+            <artifactId>pooled-jms</artifactId>
+        </dependency>
+
 
     </dependencies>
 

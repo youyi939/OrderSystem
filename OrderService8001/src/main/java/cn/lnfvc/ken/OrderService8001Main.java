@@ -4,6 +4,7 @@ package cn.lnfvc.ken;
 import cn.ken.StartTime;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.jms.annotation.EnableJms;
 
 /**
  * @version 1.0
@@ -11,6 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @date 2020/10/16 7:58 下午
  */
 @SpringBootApplication
+@EnableJms
 public class OrderService8001Main {
     public static void main(String[] args) {
         SpringApplication.run(OrderService8001Main.class,args);

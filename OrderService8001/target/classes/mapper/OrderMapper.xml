@@ -12,10 +12,6 @@
     </select>
 
 
-<!--    <insert id="create" parameterType="Order" useGeneratedKeys="true" keyProperty="id">-->
-<!--        insert into Order_demo values (#{id},#{message});-->
-<!--    </insert>-->
-
 
 
 </mapper>
